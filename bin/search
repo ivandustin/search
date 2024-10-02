@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export PYTHONUNBUFFERED=1
+tokens | embeddings 0 | faiss-get $SEARCH_INDEX $SEARCH_RESULTS | line-map $SEARCH_MAP | unique
