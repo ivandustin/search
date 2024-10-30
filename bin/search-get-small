@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+search-get $SEARCH_INDEX_SMALL $SEARCH_MAP_SMALL

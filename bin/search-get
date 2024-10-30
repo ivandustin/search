@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+faiss-get $1 $SEARCH_RESULTS | line-map $2
