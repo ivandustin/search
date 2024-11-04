@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-NPROBE=49 faiss-get $1 $SEARCH_RESULTS | line-map $2
+EFSEARCH=256 faiss-get $1 $SEARCH_RESULTS | line-map $2
