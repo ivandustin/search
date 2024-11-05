@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-faiss-create $1.index --string L2norm,HNSW < $1.embed
+faiss-create $1.index --string L2norm,HNSW --efconstruction 128 < $1.embed
